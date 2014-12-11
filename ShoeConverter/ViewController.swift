@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var mensShoeSizeTextField: UITextField!
     @IBOutlet weak var mensConvertedShoeSizeLabel: UILabel!
     
+    @IBOutlet weak var womensShoeSizeTextField: UITextField!
+    @IBOutlet weak var womensConvertedShoeSizeLabel: UILabel!
     
     
     override func viewDidLoad() {
@@ -37,5 +39,8 @@ class ViewController: UIViewController {
         
     }
 
+    @IBAction func convertWomensShoeSizeButtonPressed(sender: UIButton) {
+        
+    }
 }
 
